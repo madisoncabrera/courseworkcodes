@@ -1,19 +1,3 @@
-#-------------------------------------------------------------------------------
-# Name: Madison Cabrera
-#-------------------------------------------------------------------------------
-# Honor Code Statement: I received no assistance on this assignment that
-#                       violates the ethical guidelines as set forth by the
-#                       instructor and the class syllabus.
-#-------------------------------------------------------------------------------
-# References: 
-#-------------------------------------------------------------------------------
-# Comments to grader: 
-#-------------------------------------------------------------------------------
-# Code: Code starts here
-#-------------------------------------------------------------------------------
-import os
-os.chdir("/Users/mcabre1") #i need to put this on my files because it is not accessing my home drive on my mac
-
 from tkinter import *
 
 class MyFrame(Frame):
@@ -98,3 +82,4 @@ app=MyFrame(root)#object of MyFrame class
 app.pack()
 root.mainloop()#layout and call mainloop()
                      
+
