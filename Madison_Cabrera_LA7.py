@@ -1,19 +1,3 @@
-#-------------------------------------------------------------------------------
-# Name: FirstName LastName
-#-------------------------------------------------------------------------------
-# Honor Code Statement: I received no assistance on this assignment that
-#                       violates the ethical guidelines as set forth by the
-#                       instructor and the class syllabus.
-#-------------------------------------------------------------------------------
-# References:
-#-------------------------------------------------------------------------------
-# Comments to grader:
-#-------------------------------------------------------------------------------
-# Code: Tkinter GUI — Library Book Checkout (writes to checkouts.txt)
-#-------------------------------------------------------------------------------
-import os
-os.chdir("/Users/mcabre1")
-
 from tkinter import *
 from datetime import datetime
 
@@ -48,23 +32,6 @@ class LibraryCheckout(Frame):
         self.status_label=Label(self,textvariable=self.status)
         self.status_label.grid(row=5,column=0,columnspan=2)
         
-        
-
-        # Status StringVar
-
-        # -----------------------------
-        # a) Create widgets + layout
-        # -----------------------------
-        # Labels and entries
-
-        # Button
-
-
-        # Status label and associate with textvariable to connect to status stringVar
-
-    # -----------------------------------------------------------------------
-    # b) add(): validate and append a line to checkouts.txt, update status
-    # -----------------------------------------------------------------------
     def add(self):
         # Read values
         # Validation — non-empty
@@ -105,11 +72,10 @@ class LibraryCheckout(Frame):
 
         self.status.set('Added Successfully!.')
 
-# your code here
-# create root window and object, then call mainloop
+
 if __name__ == "__main__":
     root = Tk()
     app = LibraryCheckout(root)
-    app.grid() # IH: since app is a frame, needs layout manager
+    app.grid() 
     root.mainloop()
 
