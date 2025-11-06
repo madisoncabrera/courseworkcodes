@@ -1,21 +1,4 @@
-#-------------------------------------------------------------------------------
-# LA2.py
-# Name: Madison Cabrera
-# Python Version: 2.XX or 3.XX
-#-------------------------------------------------------------------------------
-# Honor Code Statement: I received no assistance on this assignment that
-#                       violates the ethical guidelines as set forth by the
-#                       instructor and the class syllabus.
-#-------------------------------------------------------------------------------
-# References: 
-#-------------------------------------------------------------------------------
-# Comments to grader: 
-#-------------------------------------------------------------------------------
-# Code: Code starts here
-#-------------------------------------------------------------------------------
-
 class AbsVal:
-    
     def __init__(self,x,y):
         self.x=float(x) #float so that numbers can be manipulated in case a decimal is added
         self.y=float(y)
