@@ -1,19 +1,3 @@
-#-------------------------------------------------------------------------------
-# LA1.py
-# Name: Madison Cabrera
-# Python Version: 3.XX
-#-------------------------------------------------------------------------------
-# Honor Code Statement: I received no assistance on this assignment that
-#                       violates the ethical guidelines as set forth by the
-#                       instructor and the class syllabus.
-#-------------------------------------------------------------------------------
-# References: 
-#-------------------------------------------------------------------------------
-# Any notes to grader: For example: fully implemented
-#-------------------------------------------------------------------------------
-# Code: Code starts here
-#-------------------------------------------------------------------------------
-
 def build_dict(filename):
     store={}
     with open(filename, 'r') as f: #open file
