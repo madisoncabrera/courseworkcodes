@@ -1,20 +1,3 @@
-#-------------------------------------------------------------------------------
-# LA5.py
-# Name: Madison Cabrera
-# Python Version: 2.XX or 3.XX
-#-------------------------------------------------------------------------------
-# Honor Code Statement: I received no assistance on this assignment that
-#                       violates the ethical guidelines as set forth by the
-#                       instructor and the class syllabus.
-#-------------------------------------------------------------------------------
-# References: 
-#-------------------------------------------------------------------------------
-# Comments to grader: 
-#-------------------------------------------------------------------------------
-# Code: Code starts here
-#-------------------------------------------------------------------------------
-
-
 #define exceptions classes InsufficientLength, NoDigit, NoEdu and NoAtSymbol
 class InvalidAddress(Exception):
     def __init__(self,email):
@@ -70,7 +53,6 @@ def check_email(email):
         print(f'{email} is valid!') 
         return True # has loop0 end 
         
-
 while True:
     user_email=input('Enter an email address: ') #takes user input 
     #check=check_email(user_email)
