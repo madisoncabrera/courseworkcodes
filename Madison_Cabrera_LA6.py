@@ -1,19 +1,3 @@
-#-------------------------------------------------------------------------------
-# LA6.py
-# Name: Madison Cabrera
-# Python Version: 2.XX or 3.XX
-#-------------------------------------------------------------------------------
-# Honor Code Statement: I received no assistance on this assignment that
-#                       violates the ethical guidelines as set forth by the
-#                       instructor and the class syllabus.
-#-------------------------------------------------------------------------------
-# References: 
-#-------------------------------------------------------------------------------
-# Comments to grader: 
-#-------------------------------------------------------------------------------
-# Code: Code starts here
-#-------------------------------------------------------------------------------
-
 # define two exception class: InvalidLength and InvalidFirstChar
 class InvalidLength(Exception):
     def __init__(self,key): 
@@ -31,7 +15,6 @@ class InvalidFirstChar(Exception):
 
 class SpecialDict(dict):
     def setdefault(self, key, value):
-        # your code here
         # define a try and except block
         # to add a key value pair to the dict
         # check the conditions on the key
@@ -57,7 +40,6 @@ class Department(object):
     roster = SpecialDict()
     
     def add_student(self):
-        # your code here
         # user input for GMU ID(key) and full name(value)
         # call setdefault to add a student to roster dict.
         key=input('Enter the GMU ID: ').lower() #user input
