@@ -1,19 +1,3 @@
-#-------------------------------------------------------------------------------
-# LA3.py
-# Name: Madison Cabrera
-#-------------------------------------------------------------------------------
-# Honor Code Statement: I received no assistance on this assignment that
-#                       violates the ethical guidelines as set forth by the
-#                       instructor and the class syllabus.
-#-------------------------------------------------------------------------------
-# References: 
-#-------------------------------------------------------------------------------
-# Comments to grader: 
-#-------------------------------------------------------------------------------
-#
-# Code: Code starts here
-#-------------------------------------------------------------------------------
-
 class Bookstore:
     # REQUIRED ATTRIBUTES:
     #   name (str), location (str), catalog (dict: title -> price)
@@ -25,8 +9,6 @@ class Bookstore:
         self.name=name 
         self.location=location
     def add_to_catalog(self, title, price):
-        # YOUR CODE HERE
-        
         if title in self.catalog: #check to see if in catalog
             print(f'ERROR: {title} was found.')
         else:
@@ -40,7 +22,6 @@ class Bookstore:
         #   return an informational message
 
     def update(self, title, new_price):
-        # YOUR CODE HERE
         self.catalog[title]=float(new_price) #update the new price- as a float not string
         if title in self.catalog:
             self.catalog[title]=new_price
